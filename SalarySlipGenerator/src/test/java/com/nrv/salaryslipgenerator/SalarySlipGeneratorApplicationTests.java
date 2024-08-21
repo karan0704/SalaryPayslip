@@ -1,4 +1,4 @@
-package com.nrv.SalaryPayslip;
+package com.nrv.salaryslipgenerator;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
