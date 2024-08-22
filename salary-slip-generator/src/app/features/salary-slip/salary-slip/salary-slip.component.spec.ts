@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ImportExcelComponent } from './import-excel.component';
+import { SalarySlipComponent } from './salary-slip.component';
 
-describe('ImportExcelComponent', () => {
-  let component: ImportExcelComponent;
-  let fixture: ComponentFixture<ImportExcelComponent>;
+describe('SalarySlipComponent', () => {
+  let component: SalarySlipComponent;
+  let fixture: ComponentFixture<SalarySlipComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ImportExcelComponent]
+      imports: [SalarySlipComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ImportExcelComponent);
+    fixture = TestBed.createComponent(SalarySlipComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

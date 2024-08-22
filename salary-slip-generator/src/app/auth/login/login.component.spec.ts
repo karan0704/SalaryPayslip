@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { GenerateSlipComponent } from './generate-slip.component';
+import { LoginComponent } from './login.component';
 
-describe('GenerateSlipComponent', () => {
-  let component: GenerateSlipComponent;
-  let fixture: ComponentFixture<GenerateSlipComponent>;
+describe('LoginComponent', () => {
+  let component: LoginComponent;
+  let fixture: ComponentFixture<LoginComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [GenerateSlipComponent]
+      imports: [LoginComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(GenerateSlipComponent);
+    fixture = TestBed.createComponent(LoginComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
