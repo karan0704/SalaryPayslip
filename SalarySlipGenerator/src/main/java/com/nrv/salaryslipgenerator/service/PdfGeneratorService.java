@@ -1,4 +1,4 @@
 package com.nrv.salaryslipgenerator.service;
 
-public class AuthService {
+public class PdfGeneratorService {
 }

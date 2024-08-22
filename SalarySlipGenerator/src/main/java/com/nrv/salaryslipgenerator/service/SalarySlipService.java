@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class SalaryService {
+public class SalarySlipService {
 
     @Autowired
     private EmployeeRepository employeeRepository;
